@@ -34,7 +34,6 @@ let cScore = 0;
 
 pScore = localStorage.getItem("pScore");
 cScore = localStorage.getItem("cScore");
-
 document.querySelector(".human-score").innerHTML = pScore;
 document.querySelector(".computer-score").innerHTML = cScore;
 
