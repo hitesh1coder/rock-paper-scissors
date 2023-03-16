@@ -190,6 +190,7 @@ body {
   display: grid;
   place-items: center;
   margin-bottom: 1rem;
+  color: rgb(17, 15, 15);
 }
 .result_text {
   font-size: 1.5rem;
