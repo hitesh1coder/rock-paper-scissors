@@ -62,6 +62,7 @@ function displayResults(results) {
      <img src="${results[index].name}.png" alt="${results[index].name}"
      />
      </div>
+     <h2 class="choice-option">${results[index].name}</h2>
      `;
     }, index * 1000);
   });
