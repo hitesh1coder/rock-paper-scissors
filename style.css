@@ -69,7 +69,7 @@ body {
   height: 100%;
   left: 3%;
   top: 6%;
-  background: url("/traingle.png") no-repeat;
+  background: url("traingle.png") no-repeat;
   z-index: -1;
 }
 

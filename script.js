@@ -16,9 +16,9 @@ const CHOICES = [
     beats: "scissors",
   },
 ];
-const choiceButton = document.querySelectorAll(".choice-btn");
 const container = document.querySelector(".container");
 const gameSec = document.querySelector(".game_section");
+const choiceButton = document.querySelectorAll(".choice-btn");
 const resultSec = document.querySelector(".results");
 const resultsdivs = document.querySelectorAll(".results_result");
 const hurrayDiv = document.querySelector(".hurray");
