@@ -48,7 +48,9 @@ body {
 }
 
 .choice img {
-  width: 35px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .game_section {
@@ -180,10 +182,12 @@ body {
 .winner .choice::before {
   content: "";
   position: absolute;
-  box-shadow: 0 0 0 30px #0a580e, 0 0 0 40px #117716, 0 0 0 50px #148f1a;
+  box-shadow: 0 0 0 14px #0a580e, 0 0 0 26px #117716, 0 0 0 34px #148f1a;
   opacity: 1;
-  border-radius: 5rem;
+  border-radius: 50%;
   z-index: -1;
+  width: 2.2rem;
+  height: 2.2rem;
 }
 .results_winner {
   grid-area: result-winner;
