@@ -346,6 +346,10 @@ body {
   }
   .results_result {
     transform: scale(1.2);
+    margin-top: 3rem;
+  }
+  .choice-option {
+    margin-top: 2rem;
   }
   .winner .choice::before {
     box-shadow: 0 0 0 27px #0a580e, 0 0 0 36px #117716, 0 0 0 40px #148f1a;
